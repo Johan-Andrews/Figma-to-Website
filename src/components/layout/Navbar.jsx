@@ -59,7 +59,7 @@ const Navbar = () => {
           <a
             href="#home"
             id="nav-home"
-            className="absolute left-0 top-0 w-[49px] h-[24px] text-[18px] font-medium text-black hover:text-black/70 transition-colors text-center"
+            className="absolute left-0 top-0 w-[49px] h-[24px] text-[18px] font-medium text-black hover:text-black/70 transition-all duration-300 hover:scale-105 hover:bg-[#934CEC]/10 hover:shadow-[0_0_15px_rgba(147,76,236,0.25)] rounded-md px-2 py-1 -mx-2 -my-1 text-center"
             style={{ fontFamily: "'Satoshi', sans-serif", lineHeight: '24px' }}
           >
             Home
@@ -67,7 +67,7 @@ const Navbar = () => {
           <a
             href="#studio"
             id="nav-studio"
-            className="absolute left-[113px] top-0 w-[52px] h-[24px] text-[18px] font-medium text-black hover:text-black/70 transition-colors"
+            className="absolute left-[113px] top-0 w-[52px] h-[24px] text-[18px] font-medium text-black hover:text-black/70 transition-all duration-300 hover:scale-105 hover:bg-[#934CEC]/10 hover:shadow-[0_0_15px_rgba(147,76,236,0.25)] rounded-md px-2 py-1 -mx-2 -my-1"
             style={{ fontFamily: "'Satoshi', sans-serif", lineHeight: '24px' }}
           >
             Studio
@@ -75,7 +75,7 @@ const Navbar = () => {
           <a
             href="#services"
             id="nav-services"
-            className="absolute left-[229px] top-0 w-[68px] h-[24px] text-[18px] font-medium text-black hover:text-black/70 transition-colors"
+            className="absolute left-[229px] top-0 w-[68px] h-[24px] text-[18px] font-medium text-black hover:text-black/70 transition-all duration-300 hover:scale-105 hover:bg-[#934CEC]/10 hover:shadow-[0_0_15px_rgba(147,76,236,0.25)] rounded-md px-2 py-1 -mx-2 -my-1"
             style={{ fontFamily: "'Satoshi', sans-serif", lineHeight: '24px' }}
           >
             Services
@@ -83,7 +83,7 @@ const Navbar = () => {
           <a
             href="#contact"
             id="nav-contact"
-            className="absolute left-[361px] top-0 w-[65px] h-[24px] text-[18px] font-medium text-black hover:text-black/70 transition-colors"
+            className="absolute left-[361px] top-0 w-[65px] h-[24px] text-[18px] font-medium text-black hover:text-black/70 transition-all duration-300 hover:scale-105 hover:bg-[#934CEC]/10 hover:shadow-[0_0_15px_rgba(147,76,236,0.25)] rounded-md px-2 py-1 -mx-2 -my-1"
             style={{ fontFamily: "'Satoshi', sans-serif", lineHeight: '24px' }}
           >
             Contact
@@ -91,7 +91,7 @@ const Navbar = () => {
           <a
             href="#faqs"
             id="nav-faqs"
-            className="absolute left-[490px] top-0 w-[43px] h-[24px] text-[18px] font-medium text-black hover:text-black/70 transition-colors"
+            className="absolute left-[490px] top-0 w-[43px] h-[24px] text-[18px] font-medium text-black hover:text-black/70 transition-all duration-300 hover:scale-105 hover:bg-[#934CEC]/10 hover:shadow-[0_0_15px_rgba(147,76,236,0.25)] rounded-md px-2 py-1 -mx-2 -my-1"
             style={{ fontFamily: "'Satoshi', sans-serif", lineHeight: '24px' }}
           >
             FAQ`s
@@ -101,7 +101,7 @@ const Navbar = () => {
         {/* Double-Line Menu Burger (Component 126) */}
         <button
           id="nav-menu-toggle-desktop"
-          className="absolute left-[1715px] top-[45px] w-[45.36px] h-[10.5px] p-0 border-none bg-transparent cursor-pointer flex items-center justify-center focus:outline-none"
+          className="absolute left-[1715px] top-[45px] w-[45.36px] h-[10.5px] p-0 border-none bg-transparent cursor-pointer flex items-center justify-center focus:outline-none transition-all duration-300 hover:scale-110 hover:shadow-[0_0_12px_rgba(147,76,236,0.25)]"
           aria-label="Toggle navigation menu"
         >
           <DoubleLineMenu />

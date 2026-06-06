@@ -87,7 +87,7 @@ const TestimonialsSection = () => {
 
         {/* --- Floating Avatars Left Side --- */}
         {/* Ellipse 263 */}
-        <div className="absolute left-[161px] top-[25px] w-[125px] h-[123px] rounded-full overflow-hidden border-2 border-white shadow-card z-10">
+        <div className="absolute left-[161px] top-[25px] w-[125px] h-[123px] rounded-full overflow-hidden border-2 border-white shadow-card z-10 transition-all duration-300 hover:scale-110 hover:shadow-[0_0_20px_rgba(147,76,236,0.35)] hover:border-[#934CEC] hover:z-20 cursor-pointer">
           <img 
             src={ellipse263} 
             className="w-full h-full object-cover" 
@@ -95,33 +95,33 @@ const TestimonialsSection = () => {
           />
         </div>
         {/* Ellipse 267 */}
-        <div className="absolute left-[38px] top-[469px] w-[123px] h-[123px] rounded-full overflow-hidden border-2 border-white shadow-card z-10">
+        <div className="absolute left-[38px] top-[469px] w-[123px] h-[123px] rounded-full overflow-hidden border-2 border-white shadow-card z-10 transition-all duration-300 hover:scale-110 hover:shadow-[0_0_20px_rgba(147,76,236,0.35)] hover:border-[#934CEC] hover:z-20 cursor-pointer">
           <img src={person2} className="w-full h-full object-cover" alt="Customer 2" />
         </div>
         {/* Ellipse 268 */}
-        <div className="absolute left-[204px] top-[253px] w-[216px] h-[216px] rounded-full overflow-hidden border-2 border-white shadow-card z-10">
+        <div className="absolute left-[204px] top-[253px] w-[216px] h-[216px] rounded-full overflow-hidden border-2 border-white shadow-card z-10 transition-all duration-300 hover:scale-110 hover:shadow-[0_0_20px_rgba(147,76,236,0.35)] hover:border-[#934CEC] hover:z-20 cursor-pointer">
           <img src={person3} className="w-full h-full object-cover" alt="Customer 3" />
         </div>
         {/* Ellipse 266 */}
-        <div className="absolute left-[71px] top-[219px] w-[74px] h-[74px] rounded-full overflow-hidden border-2 border-white shadow-card z-10">
+        <div className="absolute left-[71px] top-[219px] w-[74px] h-[74px] rounded-full overflow-hidden border-2 border-white shadow-card z-10 transition-all duration-300 hover:scale-110 hover:shadow-[0_0_20px_rgba(147,76,236,0.35)] hover:border-[#934CEC] hover:z-20 cursor-pointer">
           <img src={person4} className="w-full h-full object-cover" alt="Customer 4" />
         </div>
 
         {/* --- Floating Avatars Right Side --- */}
         {/* Ellipse 270 */}
-        <div className="absolute left-[1643px] top-[4px] w-[146px] h-[146px] rounded-full overflow-hidden border-2 border-white shadow-card z-10">
+        <div className="absolute left-[1643px] top-[4px] w-[146px] h-[146px] rounded-full overflow-hidden border-2 border-white shadow-card z-10 transition-all duration-300 hover:scale-110 hover:shadow-[0_0_20px_rgba(147,76,236,0.35)] hover:border-[#934CEC] hover:z-20 cursor-pointer">
           <img src={person6} className="w-full h-full object-cover" alt="Customer 6" />
         </div>
         {/* Ellipse 269 */}
-        <div className="absolute left-[1587px] top-[358px] w-[295px] h-[295px] rounded-full overflow-hidden border-2 border-white shadow-card z-10">
+        <div className="absolute left-[1587px] top-[358px] w-[295px] h-[295px] rounded-full overflow-hidden border-2 border-white shadow-card z-10 transition-all duration-300 hover:scale-110 hover:shadow-[0_0_20px_rgba(147,76,236,0.35)] hover:border-[#934CEC] hover:z-20 cursor-pointer">
           <img src={person5} className="w-full h-full object-cover" alt="Customer 5" />
         </div>
         {/* Ellipse 264 */}
-        <div className="absolute left-[1478px] top-[83px] w-[90px] h-[90px] rounded-full overflow-hidden border-2 border-white shadow-card z-10">
+        <div className="absolute left-[1478px] top-[83px] w-[90px] h-[90px] rounded-full overflow-hidden border-2 border-white shadow-card z-10 transition-all duration-300 hover:scale-110 hover:shadow-[0_0_20px_rgba(147,76,236,0.35)] hover:border-[#934CEC] hover:z-20 cursor-pointer">
           <img src={person8} className="w-full h-full object-cover" alt="Customer 4 duplicated" />
         </div>
         {/* Ellipse 265 */}
-        <div className="absolute left-[1500px] top-[236px] w-[112px] h-[112px] rounded-full overflow-hidden border-2 border-white shadow-card z-10">
+        <div className="absolute left-[1500px] top-[236px] w-[112px] h-[112px] rounded-full overflow-hidden border-2 border-white shadow-card z-10 transition-all duration-300 hover:scale-110 hover:shadow-[0_0_20px_rgba(147,76,236,0.35)] hover:border-[#934CEC] hover:z-20 cursor-pointer">
           <img src={person7} className="w-full h-full object-cover" alt="Customer 3 duplicated" />
         </div>
       </div>

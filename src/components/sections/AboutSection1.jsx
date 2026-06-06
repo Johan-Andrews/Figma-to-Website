@@ -79,7 +79,7 @@ const AboutSection1 = () => {
 
         {/* Image 348 — circular team photo, right side */}
         <div
-          className="absolute overflow-hidden z-10"
+          className="absolute overflow-hidden z-10 transition-all duration-500 hover:scale-[1.03] hover:shadow-[0_8px_32px_rgba(147,76,236,0.3)] hover:border-[#934CEC]/80 cursor-pointer"
           style={{
             left: '1159px',
             top: '0px',

@@ -189,51 +189,51 @@ const HeroSection = () => {
           <BlackSquiggle className="absolute left-[80px] top-[150px] w-[30px] h-[120px]" />
 
           {/* Ellipse 262 — far left, lower */}
-          <div className="absolute left-[38px] top-[195px] w-[226px] h-[226px] rounded-full overflow-hidden border border-black/5 shadow-card transition-transform duration-500 hover:scale-105">
+          <div className="absolute left-[38px] top-[195px] w-[226px] h-[226px] rounded-full overflow-hidden border border-black/5 shadow-card transition-all duration-300 hover:scale-110 hover:shadow-[0_0_25px_rgba(147,76,236,0.35)] hover:border-[#934CEC] hover:z-30 cursor-pointer">
             <img src={person4} className="w-full h-full object-cover" alt="Team member 4" />
           </div>
 
           {/* Ellipse 261 — second from left */}
-          <div className="absolute left-[199px] top-[139px] w-[226px] h-[226px] rounded-full overflow-hidden shadow-card transition-transform duration-500 hover:scale-105">
+          <div className="absolute left-[199px] top-[139px] w-[226px] h-[226px] rounded-full overflow-hidden border border-black/5 shadow-card transition-all duration-300 hover:scale-110 hover:shadow-[0_0_25px_rgba(147,76,236,0.35)] hover:border-[#934CEC] hover:z-30 cursor-pointer">
             <img src={person1} className="w-full h-full object-cover" alt="Team member 1" />
           </div>
 
           {/* Ellipse 255 — center-left, highest */}
-          <div className="absolute left-[553px] top-[0px] w-[226px] h-[226px] rounded-full overflow-hidden border border-black/5 shadow-card transition-transform duration-500 hover:scale-105">
+          <div className="absolute left-[553px] top-[0px] w-[226px] h-[226px] rounded-full overflow-hidden border border-black/5 shadow-card transition-all duration-300 hover:scale-110 hover:shadow-[0_0_25px_rgba(147,76,236,0.35)] hover:border-[#934CEC] hover:z-30 cursor-pointer">
             <img src={person2} className="w-full h-full object-cover" alt="Team member 2" />
           </div>
 
           {/* Ellipse 256 — center, lower */}
-          <div className="absolute left-[677px] top-[226px] w-[226px] h-[227px] rounded-full overflow-hidden border border-black/5 shadow-card transition-transform duration-500 hover:scale-105">
+          <div className="absolute left-[677px] top-[226px] w-[226px] h-[227px] rounded-full overflow-hidden border border-black/5 shadow-card transition-all duration-300 hover:scale-110 hover:shadow-[0_0_25px_rgba(147,76,236,0.35)] hover:border-[#934CEC] hover:z-30 cursor-pointer">
             <img src={person3} className="w-full h-full object-cover" alt="Team member 3" />
           </div>
 
           {/* Ellipse 257 — center-right */}
-          <div className="absolute left-[977px] top-[55px] w-[225px] h-[227px] rounded-full overflow-hidden border border-black/5 shadow-card transition-transform duration-500 hover:scale-105">
+          <div className="absolute left-[977px] top-[55px] w-[225px] h-[227px] rounded-full overflow-hidden border border-black/5 shadow-card transition-all duration-300 hover:scale-110 hover:shadow-[0_0_25px_rgba(147,76,236,0.35)] hover:border-[#934CEC] hover:z-30 cursor-pointer">
             <img src={person5} className="w-full h-full object-cover" alt="Team member 5" />
           </div>
 
           {/* Ellipse 258 — right-center */}
-          <div className="absolute left-[1144px] top-[139px] w-[226px] h-[226px] rounded-full overflow-hidden shadow-card transition-transform duration-500 hover:scale-105">
+          <div className="absolute left-[1144px] top-[139px] w-[226px] h-[226px] rounded-full overflow-hidden border border-black/5 shadow-card transition-all duration-300 hover:scale-110 hover:shadow-[0_0_25px_rgba(147,76,236,0.35)] hover:border-[#934CEC] hover:z-30 cursor-pointer">
             <img src={person6} className="w-full h-full object-cover" alt="Team member 6" />
           </div>
 
           {/* Ellipse 259 — far right, top */}
-          <div className="absolute left-[1414px] top-[0px] w-[226px] h-[226px] rounded-full overflow-hidden border border-black/5 shadow-card transition-transform duration-500 hover:scale-105">
+          <div className="absolute left-[1414px] top-[0px] w-[226px] h-[226px] rounded-full overflow-hidden border border-black/5 shadow-card transition-all duration-300 hover:scale-110 hover:shadow-[0_0_25px_rgba(147,76,236,0.35)] hover:border-[#934CEC] hover:z-30 cursor-pointer">
             <img src={person7} className="w-full h-full object-cover" alt="Team member 7" />
           </div>
 
           {/* Ellipse 260 — far right, lower */}
-          <div className="absolute left-[1656px] top-[159px] w-[226px] h-[227px] rounded-full overflow-hidden border border-black/5 shadow-card transition-transform duration-500 hover:scale-105">
+          <div className="absolute left-[1656px] top-[159px] w-[226px] h-[227px] rounded-full overflow-hidden border border-black/5 shadow-card transition-all duration-300 hover:scale-110 hover:shadow-[0_0_25px_rgba(147,76,236,0.35)] hover:border-[#934CEC] hover:z-30 cursor-pointer">
             <img src={person8} className="w-full h-full object-cover" alt="Team member 8" />
           </div>
           {/* Ellipse 259 — center-left, highest */}
-          <div className="absolute left-[553px] top-[0px] w-[226px] h-[226px] rounded-full overflow-hidden border border-black/5 shadow-card transition-transform duration-500 hover:scale-105">
+          <div className="absolute left-[553px] top-[0px] w-[226px] h-[226px] rounded-full overflow-hidden border border-black/5 shadow-card transition-all duration-300 hover:scale-110 hover:shadow-[0_0_25px_rgba(147,76,236,0.35)] hover:border-[#934CEC] hover:z-30 cursor-pointer">
             <img src={person2} className="w-full h-full object-cover" alt="Team member 2" />
           </div>
 
           {/* Ellipse 260 — center, lower */}
-          <div className="absolute left-[960px] top-[1656px] w-[226px] h-[227px] rounded-full overflow-hidden border border-black/5 shadow-card transition-transform duration-500 hover:scale-105">
+          <div className="absolute left-[960px] top-[1656px] w-[226px] h-[227px] rounded-full overflow-hidden border border-black/5 shadow-card transition-all duration-300 hover:scale-110 hover:shadow-[0_0_25px_rgba(147,76,236,0.35)] hover:border-[#934CEC] hover:z-30 cursor-pointer">
             <img src={person3} className="w-full h-full object-cover" alt="Team member 3" />
           </div>
         </div>

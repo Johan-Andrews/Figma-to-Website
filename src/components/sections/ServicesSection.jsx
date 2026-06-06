@@ -126,10 +126,10 @@ const ServicesSection = () => {
         <div className="absolute left-0 top-[316px] w-[1600px] h-[540px] z-10">
           
           {/* Row 1 / Group 352 */}
-          <div className="absolute left-0 top-[0px] w-[1600px] h-[180px]">
+          <div className="absolute left-0 top-[0px] w-[1600px] h-[180px] transition-all duration-300 hover:bg-[#934CEC]/5 cursor-pointer group rounded-lg">
             <div className="absolute left-0 top-0 w-[1600px] h-0 border-t border-[#B1B1B1]" />
             <div 
-              className="absolute left-0 top-[48px] w-[226px] h-[84px] text-[30px] leading-[42px] text-[#1B1B1B] font-normal"
+              className="absolute left-0 top-[48px] w-[226px] h-[84px] text-[30px] leading-[42px] text-[#1B1B1B] font-normal pl-4"
               style={{ fontFamily: "'Satoshi', sans-serif" }}
             >
               Office of multiple<br />interest content
@@ -141,16 +141,16 @@ const ServicesSection = () => {
               Colaborative & partnership
             </div>
             {/* Arrow 1 */}
-            <svg width="96" height="16" viewBox="0 0 96 16" fill="none" xmlns="http://www.w3.org/2000/svg" className="absolute left-[1519px] top-[82px]">
+            <svg width="96" height="16" viewBox="0 0 96 16" fill="none" xmlns="http://www.w3.org/2000/svg" className="absolute left-[1519px] top-[82px] transition-transform duration-300 group-hover:translate-x-3 pr-4">
               <path d="M0 8H90M90 8L83 2M90 8L83 14" stroke="black" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
             </svg>
             <div className="absolute left-0 top-[180px] w-[1600px] h-0 border-t border-[#B1B1B1]" />
           </div>
 
           {/* Row 2 / Group 353 */}
-          <div className="absolute left-0 top-[212px] w-[1600px] h-[148px]">
+          <div className="absolute left-0 top-[212px] w-[1600px] h-[148px] transition-all duration-300 hover:bg-[#934CEC]/5 cursor-pointer group rounded-lg">
             <div 
-              className="absolute left-0 top-[16px] w-[316px] h-[84px] text-[30px] leading-[42px] text-[#1B1B1B] font-normal"
+              className="absolute left-0 top-[16px] w-[316px] h-[84px] text-[30px] leading-[42px] text-[#1B1B1B] font-normal pl-4"
               style={{ fontFamily: "'Satoshi', sans-serif" }}
             >
               The hanger US Air force<br />digital experimental
@@ -162,16 +162,16 @@ const ServicesSection = () => {
               We talk about our weight
             </div>
             {/* Arrow 2 */}
-            <svg width="96" height="16" viewBox="0 0 96 16" fill="none" xmlns="http://www.w3.org/2000/svg" className="absolute left-[1519px] top-[50px]">
+            <svg width="96" height="16" viewBox="0 0 96 16" fill="none" xmlns="http://www.w3.org/2000/svg" className="absolute left-[1519px] top-[50px] transition-transform duration-300 group-hover:translate-x-3 pr-4">
               <path d="M0 8H90M90 8L83 2M90 8L83 14" stroke="black" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
             </svg>
             <div className="absolute left-0 top-[148px] w-[1600px] h-0 border-t border-[#B1B1B1]" />
           </div>
 
           {/* Row 3 / Group 354 */}
-          <div className="absolute left-0 top-[370px] w-[1600px] h-[170px]">
+          <div className="absolute left-0 top-[370px] w-[1600px] h-[170px] transition-all duration-300 hover:bg-[#934CEC]/5 cursor-pointer group rounded-lg">
             <div 
-              className="absolute left-0 top-[38px] w-[273px] h-[84px] text-[30px] leading-[42px] text-[#1B1B1B] font-normal"
+              className="absolute left-0 top-[38px] w-[273px] h-[84px] text-[30px] leading-[42px] text-[#1B1B1B] font-normal pl-4"
               style={{ fontFamily: "'Satoshi', sans-serif" }}
             >
               Delta faucet content,<br />social, digital
@@ -185,7 +185,7 @@ const ServicesSection = () => {
             
             {/* rect 661 (Circle) */}
             <div 
-              className="absolute overflow-hidden z-0"
+              className="absolute overflow-hidden z-0 transition-all duration-500 hover:scale-110 hover:shadow-[0_0_20px_rgba(147,76,236,0.35)] hover:rotate-6 cursor-pointer"
               style={{
                 width: '160px',
                 height: '160px',
@@ -195,11 +195,11 @@ const ServicesSection = () => {
                 opacity: 1
               }}
             >
-              <img src={rect661} alt="Rectangle 661"  />
+              <img src={rect661} alt="Rectangle 661" className="w-full h-full object-cover" />
             </div>
 
             {/* Arrow 3 */}
-            <svg width="96" height="16" viewBox="0 0 96 16" fill="none" xmlns="http://www.w3.org/2000/svg" className="absolute left-[1519px] top-[82px]">
+            <svg width="96" height="16" viewBox="0 0 96 16" fill="none" xmlns="http://www.w3.org/2000/svg" className="absolute left-[1519px] top-[82px] transition-transform duration-300 group-hover:translate-x-3 pr-4">
               <path d="M0 8H90M90 8L83 2M90 8L83 14" stroke="black" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
             </svg>
             <div className="absolute left-0 top-[170px] w-[1600px] h-0 border-t border-[#B1B1B1]" />

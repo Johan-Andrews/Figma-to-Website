@@ -16,19 +16,19 @@ const NewsletterSection = () => {
         
         {/* Ellipse 739 (Large Purple Circle) */}
         <div
-  className="absolute bg-[#934CEC] z-0"
-  style={{
-    width: '243.99756426835313px',
-    height: '243.99756426835313px',
-    top: '250px',
-    left: '1650px',
-    transform: 'rotate(-65deg)',
-    opacity: 1,
-    borderRadius: '50%',
-    clipPath: 'inset(0 0 50% 0)'
-  }}
+          className="absolute bg-[#934CEC] z-0 transition-all duration-700 hover:rotate-[-45deg] hover:scale-105"
+          style={{
+            width: '243.99756426835313px',
+            height: '243.99756426835313px',
+            top: '250px',
+            left: '1650px',
+            transform: 'rotate(-65deg)',
+            opacity: 1,
+            borderRadius: '50%',
+            clipPath: 'inset(0 0 50% 0)'
+          }}
+        />
 
-/>
         {/* Vector 2519 (Red border overlay 1) */}
         <svg 
           width="163.54" 
@@ -85,7 +85,7 @@ const NewsletterSection = () => {
         <div className="absolute left-[844px] top-[456px] w-[233px] h-[72px] z-10">
           <button
             id="subscribe-btn"
-            className="absolute left-0 top-0 w-[233px] h-[72px] bg-black text-white text-[20px] font-bold rounded-[100px] hover:bg-black/90 active:scale-95 transition-all shadow-md flex items-center justify-center cursor-pointer"
+            className="absolute left-0 top-0 w-[233px] h-[72px] bg-black text-white text-[20px] font-bold rounded-[100px] hover:bg-black/95 hover:scale-105 hover:shadow-[0_0_25px_rgba(147,76,236,0.3)] active:scale-95 transition-all duration-300 shadow-md flex items-center justify-center cursor-pointer"
             style={{ fontFamily: "'Satoshi', sans-serif" }}
           >
             Subscribe Now
