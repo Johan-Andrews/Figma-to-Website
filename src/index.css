@@ -1,0 +1,147 @@
+@import "tailwindcss";
+
+/* ─────────────────────────────────────────────────────────────────
+   Tailwind CSS v4 Theme Configuration
+   All design tokens extracted from the Figma design
+   ───────────────────────────────────────────────────────────────── */
+
+@theme {
+  /* Colors */
+  --color-primary: #1B1B1B;
+  --color-primary-light: #333333;
+  --color-accent-green: #BEFF6C;
+  --color-accent-yellow: #FFE566;
+  --color-accent-pink: #FFB6C1;
+  --color-accent-purple: #7B61FF;
+  --color-accent-coral: #FF6B6B;
+  --color-accent-orange: #FF8C42;
+  --color-background: #FFFFFF;
+  --color-background-alt: #F9F9F9;
+  --color-background-dark: #1B1B1B;
+  --color-background-newsletter: #E1F0E7;
+  --color-surface: #FFFFFF;
+  --color-text-primary: #1B1B1B;
+  --color-text-secondary: #666666;
+  --color-text-muted: #999999;
+  --color-border: #E5E5E5;
+  --color-border-light: #F0F0F0;
+
+  /* Font families */
+  --font-heading: "Gerbil", "Syne", sans-serif;
+  --font-body: "Satoshi", sans-serif;
+
+  /* Border radius */
+  --radius-card: 16px;
+  --radius-btn: 30px;
+  --radius-pill: 9999px;
+  --radius-circle: 50%;
+
+  /* Box shadows */
+  --shadow-card: 0 4px 24px 0 rgba(0, 0, 0, 0.08);
+  --shadow-nav: 0 2px 12px 0 rgba(0, 0, 0, 0.06);
+
+  /* Animations */
+  --animate-fade-in: fadeIn 0.6s ease forwards;
+  --animate-fade-up: fadeUp 0.6s ease forwards;
+  --animate-fade-down: fadeDown 0.5s ease forwards;
+  --animate-slide-in-left: slideInLeft 0.6s ease forwards;
+  --animate-slide-in-right: slideInRight 0.6s ease forwards;
+  --animate-scale-in: scaleIn 0.5s ease forwards;
+  --animate-float: float 3s ease-in-out infinite;
+  --animate-pulse-slow: pulse 3s ease-in-out infinite;
+  --animate-wiggle: wiggle 6s ease-in-out infinite;
+
+  @keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+  @keyframes fadeUp {
+    from { opacity: 0; transform: translateY(24px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  @keyframes fadeDown {
+    from { opacity: 0; transform: translateY(-24px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  @keyframes slideInLeft {
+    from { opacity: 0; transform: translateX(-40px); }
+    to { opacity: 1; transform: translateX(0); }
+  }
+  @keyframes slideInRight {
+    from { opacity: 0; transform: translateX(40px); }
+    to { opacity: 1; transform: translateX(0); }
+  }
+  @keyframes scaleIn {
+    from { opacity: 0; transform: scale(0.9); }
+    to { opacity: 1; transform: scale(1); }
+  }
+  @keyframes float {
+    0%, 100% { transform: translateY(0px); }
+    50% { transform: translateY(-12px); }
+  }
+  @keyframes wiggle {
+    0%, 100% { transform: rotate(0deg); }
+    25% { transform: rotate(3deg); }
+    75% { transform: rotate(-3deg); }
+  }
+}
+
+/* ─────────────────────────────────────────────────────────────────
+   Base Layer — Global Styles
+   ───────────────────────────────────────────────────────────────── */
+
+@layer base {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    font-family: var(--font-body);
+    color: var(--color-text-primary);
+    background-color: var(--color-background);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-heading);
+  }
+
+  /* Custom scrollbar */
+  ::-webkit-scrollbar { width: 6px; }
+  ::-webkit-scrollbar-track { background: transparent; }
+  ::-webkit-scrollbar-thumb {
+    background: var(--color-border);
+    border-radius: 9999px;
+  }
+}
+
+/* ─────────────────────────────────────────────────────────────────
+   Utility Layer
+   ───────────────────────────────────────────────────────────────── */
+
+@layer utilities {
+  /* Animation delay utilities */
+  .animation-delay-100 { animation-delay: 100ms; }
+  .animation-delay-200 { animation-delay: 200ms; }
+  .animation-delay-300 { animation-delay: 300ms; }
+  .animation-delay-400 { animation-delay: 400ms; }
+  .animation-delay-500 { animation-delay: 500ms; }
+
+  /* Fill-mode forwards */
+  .animate-fill-forwards { animation-fill-mode: forwards; }
+
+  /* Gradient text utility */
+  .text-gradient {
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+}
