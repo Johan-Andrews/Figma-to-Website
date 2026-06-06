@@ -3,14 +3,14 @@ import Container from '../layout/Container';
 import { testimonialsContent } from '../../data/content';
 
 // Import images
-import ellipse263 from '../../assets/images/ellipse 263.png';
-import person2 from '../../assets/images/ellipse 267.png';
-import person3 from '../../assets/images/ellipse 268.png';
-import person4 from '../../assets/images/ellipse 266.png';
-import person5 from '../../assets/images/ellipse 269.png';
-import person6 from '../../assets/images/ellipse 270.png';
-import person7 from '../../assets/images/ellipse 265.png';
-import person8 from '../../assets/images/ellipse 264.png';
+import ellipse263 from '../../assets/images/Ellipse 263.png';
+import person2 from '../../assets/images/Ellipse 267.png';
+import person3 from '../../assets/images/Ellipse 268.png';
+import person4 from '../../assets/images/Ellipse 266.png';
+import person5 from '../../assets/images/Ellipse 269.png';
+import person6 from '../../assets/images/Ellipse 270.png';
+import person7 from '../../assets/images/Ellipse 265.png';
+import person8 from '../../assets/images/Ellipse 264.png';
 
 // Double quotation mark SVG
 const QuoteMark = ({ className, rotate }) => (

@@ -1,13 +1,29 @@
 # Elementum — Figma to Code Implementation
 
+<p align="center">
+  <img src="./src/assets/hero.png" alt="Elementum Banner" width="400"/>
+</p>
+
 This project is a high-fidelity **Figma to Code** web implementation of the Elementum desktop website design. Built using React, Vite, and Tailwind CSS, it prioritizes pixel-perfect layout replication, typography alignment, and visual styling matching the original Figma artboard.
+
+> 💻 **Best Viewed on Laptop/Desktop**: The layout is engineered to match a locked 1920px Figma canvas. For the most premium visual fidelity, we recommend opening this page in a laptop or desktop browser.
 
 ---
 
 ## 🔗 Links & Resources
 
+*   **Live Preview**: [Elementum Production Preview](https://elementum-figma-to-code-p6y6bheuc-johan-andrews12.vercel.app/)
 *   **Figma Design Artboard**: [Figma Assignment Design](https://www.figma.com/design/0K35IOZ4Qwqur0b9o2PXlN/Assignment?node-id=1-79&t=sMHlG3gsuxw8BIE9-0)
-*   **Live Preview**: `[Vercel Live URL - Placeholder]` *(to be updated once deployment is complete)*
+
+---
+
+## 📸 Visual Previews
+
+### 💻 Implemented Website Screenshot
+![Implemented Website](./public/Elementum.png)
+
+### 🎨 Reference Figma Design
+![Reference Figma Design](./public/Group355.png)
 
 ---
 

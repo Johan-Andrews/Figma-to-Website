@@ -3,14 +3,14 @@ import Container from '../layout/Container';
 import { heroContent } from '../../data/content';
 
 // Import images
-import person1 from '../../assets/images/ellipse 261.png';
-import person2 from '../../assets/images/ellipse 255.png';
-import person3 from '../../assets/images/ellipse 256.png';
-import person4 from '../../assets/images/ellipse 262.png';
-import person5 from '../../assets/images/ellipse 257.png';
-import person6 from '../../assets/images/ellipse 258.png';
-import person7 from '../../assets/images/ellipse 259.png';
-import person8 from '../../assets/images/ellipse 260.png';
+import person1 from '../../assets/images/Ellipse 261.png';
+import person2 from '../../assets/images/Ellipse 255.png';
+import person3 from '../../assets/images/Ellipse 256.png';
+import person4 from '../../assets/images/Ellipse 262.png';
+import person5 from '../../assets/images/Ellipse 257.png';
+import person6 from '../../assets/images/Ellipse 258.png';
+import person7 from '../../assets/images/Ellipse 259.png';
+import person8 from '../../assets/images/Ellipse 260.png';
 
 // Green squiggle — left decorative element (Figma left squiggle Vector)
 const GreenSquiggle = ({ className }) => (

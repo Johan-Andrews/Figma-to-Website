@@ -177,25 +177,25 @@ const ServicesSection = () => {
               Delta faucet content,<br />social, digital
             </div>
             <div 
-              className="absolute left-[456px] top-[22px] w-[878px] h-[116px] text-[56px] leading-[116px] text-black font-normal whitespace-nowrap"
-              style={{ fontFamily: "'Gerbil', 'Syne', sans-serif" }}
+              className="absolute left-[456px] top-[22px] w-[878px] h-[116px] text-[56px] leading-[116px] text-black font-normal whitespace-nowrap z-20"
+              style={{ fontFamily: "'Gerbil', 'Syne', sans-serif"}}
             >
               Piloting digital confidence
             </div>
             
             {/* rect 661 (Circle) */}
             <div 
-              className="absolute z-10 overflow-hidden"
+              className="absolute overflow-hidden z-0"
               style={{
                 width: '160px',
                 height: '160px',
                 left: '1066px',
-                top: '138px',
+                top: '0px',
                 borderRadius: '500px',
                 opacity: 1
               }}
             >
-              <img src={rect661} alt="Rectangle 661" className="w-full h-full object-cover" />
+              <img src={rect661} alt="Rectangle 661"  />
             </div>
 
             {/* Arrow 3 */}
